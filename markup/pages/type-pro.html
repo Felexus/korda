@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        {{> head/head head.defaults}}
+    </head>
+
+    <body class="page">
+        %=symbols=%
+
+        {{> header/header}}
+
+        <main class="main">
+
+            <div class="wrapper way">
+                <div class="way-back">
+                    <a href="index.html">Главная</a>
+                    {{Icon iconName="arrow1"}}
+                    <a href="projects.html">Реализованные проекты</a>
+                    {{Icon iconName="arrow1"}}
+                    <a href="type-pro.html">Проект 22 (Республика Карелия)</a>
+                </div>
+            </div>
+
+            <div class="wrapper proj">
+                <h2>
+                    Проект 22 (Республика Карелия)
+                </h2>
+                <div class="proj-date">26 августа 2020</div>
+
+                <div class="proj-swiper">  
+                    <div class="swiper-container gallery-top1">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/pr1.png)"></div>
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/camera2.png)"></div>
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/cam1.png)"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs1">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/prl1.png)"></div>
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/prl2.png)"></div>
+                        <div class="swiper-slide" style="background-image:url(../static/img/content/prl3.png)"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-container">
+                    <p>
+                        В рамках реализации проекта по внедрению систем автоматической фиксации нарушений ПДД на дорогах Алтайского края нашей компанией, совместно с ПАО «Ростелеком» и ООО «НТЦ Галэкс», введены в эксплуатацию АПК «АвтоУраган» на следующих объектах:
+                    </p>
+                    <h6>На первом этапе, в марте 2016 года, выполнены работы по поставке и вводу в эксплуатацию комплекса «АвтоУраган-ВСМ»:</h6>
+                    <ul>
+                        <li>Перекресток улиц Молодежной и Ленина;</li>
+                        <li>Перекресток улицы Социалистической и проспекта Строителей.</li>
+                    </ul>
+                    <h6>На втором этапе, 10 июля 2017 года, в г. Барнаул осуществлена поставка комплексов «Автоураган-ВСМ» для следующих объектов:</h6>
+                    <ul>
+                        <li>Перекресток ул. Павловский тракт и ул. Бабуркина;</li>
+                        <li>Перекресток ул. Павловский тракт и ул. Георгиева;</li>
+                        <li>Перекресток ул. Малахова и ул. Э. Алексеевой.</li>
+                    </ul>
+                    <p>В сентябре 2017 года будет закончен монтаж и ввод в эксплуатацию данных объектов.</p>
+                    <p>Помимо фиксации нарушений, связанных с пересечением «стоп-линии» на запрещающий сигнал светофора и проезда на запрещающий сигнал светофора, инновационная система "АвтоУраган-ВСМ" производит регистрацию всего проходящего транспорта, проверку по подключенным базам данных розыска, судебных приставов, налогового управления.</p>
+                    <a href="projects.html">
+                        <div class="proj-container-back">
+                             Все реализованные проекты
+                        </div>    
+                    </a>
+                </div>
+
+            </div>
+
+        </main> 
+        
+        {{> footer/footer}}
+        
+
+        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+    </body>
+
+</html>

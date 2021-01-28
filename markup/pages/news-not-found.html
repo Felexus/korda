@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        {{> head/head head.defaults}}
+    </head>
+
+    <body class="page">
+        %=symbols=%
+
+        {{> header/header}}
+
+        <main class="main">
+
+            <div class="wrapper way">
+                <div class="way-back">
+                    <a href="index.html">Главная</a>
+                    {{Icon iconName="arrow1"}}
+                    <a href="news.html">Новости</a>
+                </div>
+                <h2>
+                    Наши новости
+                </h2>
+            </div>
+
+
+            <div class="s2">
+                <div class="wrapper search">
+                    <div class="search-container">
+                        <label>        
+                            <img src="static/img/content/search.png" alt="">
+                            <input type="text" placeholder="Поиск среди новостей">
+                            <button>Найти</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper filt2">
+                <div class="filt2-container">
+                    <div class="filt2-container-sort">Сортировать по :</div>
+                <a href="#">
+                    <div class="filt2-container-item">Тех. характер</div>
+                </a>
+                <a href="#">
+                    <div class="filt2-container-item">Программные обеспечения  </div>
+                </a>
+                <a href="#">
+                    <div class="filt2-container-item">Презентации</div>
+                </a>
+                </div>
+            </div>
+
+            <div class="wrapper n-list">
+                <div class="n-list-right n-list-show">
+                    <div class="n-list-right-ras">
+                        <form class="form1">
+                            <div class="n-list-right-ras-title">
+                                Будьте в курсе всех новостей
+                            </div>
+                            <input type="text" name="email" id="email" placeholder="Эл.почта">
+                            <label>
+                                <input class="checkbox1" type="checkbox">
+                                <div>
+                                    {{Icon iconName="bird"}}
+                                </div>
+                                <span>Я даю согласие на обработку персональных данных и соглашаюсь с  <a href="#">политикой конфиденциальности</a></span>
+                            </label>
+                            <button class="button-g">
+                                Подписаться на рассылку
+                            </button>
+                        </form>
+                    </div>
+                    <div class="n-list-right-stat">
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="camera"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Комплексы фото- видеофиксации</div>
+                                    <div class="n-list-right-stat-item-text-st">7 статей</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="chart"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Системы весогабаритного контроля</div>
+                                    <div class="n-list-right-stat-item-text-st">12 статей</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="scan"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Системы АСУДД</div>
+                                    <div class="n-list-right-stat-item-text-st">3 статьи</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-list-left">
+                    <div class="n-list-left-not">
+                        Ничего не найдено :(
+                    </div>
+                </div>
+                <div class="n-list-right">
+                    <div class="n-list-right-ras">
+                        <form class="form1">
+                            <div class="n-list-right-ras-title">
+                                Будьте в курсе всех новостей
+                            </div>
+                            <input id="email" name="email" type="text" placeholder="Эл.почта">
+                            <label>
+                                <input class="checkbox1" type="checkbox">
+                                <div>
+                                    {{Icon iconName="bird"}}
+                                </div>
+                                <span>Я даю согласие на обработку персональных данных и соглашаюсь с  <a href="#">политикой конфиденциальности</a></span>
+                            </label>
+                            <button class="button-g">
+                                Подписаться на рассылку
+                            </button>
+                        </form>
+                    </div>
+                    <div class="n-list-right-stat">
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="camera"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Комплексы фото- видеофиксации</div>
+                                    <div class="n-list-right-stat-item-text-st">7 статей</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="chart"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Системы весогабаритного контроля</div>
+                                    <div class="n-list-right-stat-item-text-st">12 статей</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="n-list-right-stat-item">
+                            <div class="n-list-right-stat-item-svg">
+                                {{Icon iconName="scan"}}
+                            </div>
+                            <div class="n-list-right-stat-item-text">
+                                <a href="#">
+                                    <div class="n-list-right-stat-item-text-title">Системы АСУДД</div>
+                                    <div class="n-list-right-stat-item-text-st">3 статьи</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        
+        {{> footer/footer}}
+        
+
+        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        {{> head/head head.defaults}}
+    </head>
+
+    <body class="page">
+        %=symbols=%
+
+        {{> header/header}}
+
+        <main class="main">
+
+            <div class="wrapper er">
+                <div class="er-title">404</div>
+                <div class="er-text">К сожалению, запрашиваемая страница не найдена, но есть другие, тоже хорошие</div>
+                <a href="index.html">
+                    <div class="er-back">Вернуться на главную</div>
+                </a>
+            </div>
+
+        </main>
+        
+        {{> footer/footer}}
+        
+
+        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+    </body>
+
+</html>

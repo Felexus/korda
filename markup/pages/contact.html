@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        {{> head/head head.defaults}}
+    </head>
+
+    <body class="page">
+        %=symbols=%
+
+        {{> header/header}}
+
+        <main class="main">
+
+            <div class="wrapper way">
+                <div class="way-back">
+                    <a href="index.html">Главная</a>
+                    {{Icon iconName="arrow1"}}
+                    <a href="contact.html">Контакты</a>
+                </div>
+                <h2>
+                    Контакты
+                </h2>
+            </div>
+
+            <div class="wrapper contact">
+                <div class="contact-left">
+                    <div class="contact-left-number">
+                        <a href="tel: +7 812 309-10-02">+7 812 309-10-02</a>
+                        <span>(многоканальный)</span>
+                    </div>
+                    <div class="contact-left-email">
+                        <span>Электронная почта:</span>
+                        <br>
+                        <a href="email: info@korda-groua.ru">info@korda-group.ru</a>
+                    </div>
+                    <div class="contact-left-loc">
+                        <span>Юридический адрес:</span>
+                        <p>194354, г. Санкт-Петербург, ул. Есенина <br> д.9, корп. 2</p>
+                    </div>
+                    <div class="contact-left-mail">
+                        <span>Почтовый адрес:</span>
+                        <p>194354, г. Санкт-Петербург, ул. Есенина <br> д.9, корп. 2</p>
+                    </div>
+                    <h6>Юридические данные</h6>
+                    <div class="contact-left-name">
+                        <span>Наименование компании:</span>
+                        <p>Общество с ограниченной ответственностью "Корда Групп" (ООО "Корда Групп") </p>
+                    </div>
+                    <div class="contact-left-id">
+                        <p>ИНН: 7802804626 <br> ОГРН: 1127847561753 </p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="ymap1"  data-zoom="3" data-x="60.040200" data-y="30.334706" data-array="[&quot;55.770279,37.609071&quot;" style=""></div>
+                </div>
+            </div>
+
+            <div class="s3">
+                {{> que/que}}
+            </div>
+
+        </main>
+        
+        {{> footer/footer}}
+        
+
+        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+        <script>svg4everybody();</script>
+
+    </body>
+
+</html>
