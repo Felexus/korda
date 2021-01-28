@@ -57,7 +57,7 @@
             }
         }
         &-menu {
-
+            display: none;
         }
     }
 }
@@ -3289,11 +3289,17 @@ body.dark {
     .wrapper-header {
         max-width: 1024px;
     }
+    .header-container-middle {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .wrapper {
         max-width: 767px;
+    }
+    .header-container-menu {
+        display: block;
     }
     .map {
         display: none;

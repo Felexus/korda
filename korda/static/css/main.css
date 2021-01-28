@@ -7536,6 +7536,10 @@ ul li::before {
   color: #7D8999;
 }
 
+.header-container-menu {
+  display: none;
+}
+
 .footer {
   margin-top: 180px;
   background-color: #E5E9EB;
@@ -11775,11 +11779,17 @@ body.dark .about p {
   .wrapper-header {
     max-width: 1024px;
   }
+  .header-container-middle {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .wrapper {
     max-width: 767px;
+  }
+  .header-container-menu {
+    display: block;
   }
   .map {
     display: none;
