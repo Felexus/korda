@@ -71,23 +71,26 @@ $(document).ready(function () {
 // карта
 	$('.map-block').mouseenter(function() {
 		var cont = $(this).attr('data-block')
-		$('#'+cont).css('display', 'block')
+		$('#'+cont).css('opacity', '1')
+		$('#'+cont).css('z-index', '111')
 	})
-
 	
 	$('.map-block').mouseleave(function() {
 		var cont = $(this).attr('data-block')
-		$('#'+cont).css('display', 'none')
+		$('#'+cont).css('opacity', '0')
+		$('#'+cont).css('z-index', '-8')
 	})
 
 	
 	$('.map-container-dots-item').mouseenter(function() {
-		$(this).css('display', 'block')
+		$(this).css('opacity', '1')
+		$(this).css('z-index', '111')
 	})
 
 	
 	$('.map-container-dots-item').mouseleave(function() {
-		$(this).css('display', 'none')
+		$(this).css('opacity', '0')
+		$(this).css('z-index', '-8')
 	})
 	
 

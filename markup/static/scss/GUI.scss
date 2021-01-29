@@ -328,21 +328,29 @@ h6 {
 }
 
 .moon {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 124%;
-    color: rgba(31, 34, 38, 0.4);
     background-color: transparent;
     border: none;
+    span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 124%;
+        color: rgba(31, 34, 38, 0.4);
+        background-color: transparent;
+        border: none;
+    }
 }
 
 .sun {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 124%;
-    color: rgba(255, 255, 255, 0.4);
     background-color: transparent;
     border: none;
+    span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 124%;
+        color: rgba(255, 255, 255, 0.4);
+        background-color: transparent;
+        border: none;
+    }
 }
 
 .hide {
@@ -591,13 +599,19 @@ svg {
     font-size: 16px;
     line-height: 140%;
     color: #107F4B;
-    text-align: center;
-    width: 100%;
+    margin-left: 32px;
     &:hover {
         color: rgba(16, 127, 75, 0.64);
     }
     &:active {
         color: rgba(16, 127, 75, 0.5);
+    }
+    @media screen and (max-width: 525px) {
+        font-size: 14px;
+    }
+    
+    @media screen and (max-width: 320px) {
+        font-size: 11px;
     }
 }
 
