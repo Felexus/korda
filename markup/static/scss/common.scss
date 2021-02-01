@@ -2824,7 +2824,23 @@
     text-underline-offset: 5px;
 }
 
+.icon__file_white {
+    display: none;
+}
+
 body.dark {
+    .new h1 {
+        color: white !important;
+    }
+    .new-container p {
+        color: white !important;
+    }
+    .contact-left-number a {
+        color: white !important;
+    }
+    .contact-left-email a {
+        color: white !important;
+    }
     .header-container-menu {
         .icon__menu__close {
             svg {
@@ -3128,6 +3144,16 @@ body.dark {
     }
     .about p {
         color: white !important;
+    }
+    .map-container-dots-item .block-container h6 {
+        color: #1F2226 !important;
+    }
+    .icon__file {
+        display: none;
+    }
+    
+    .icon__file_white {
+        display: block;
     }
 }
 

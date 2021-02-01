@@ -11265,8 +11265,28 @@ ul li::before {
   text-underline-offset: 5px;
 }
 
+.icon__file_white {
+  display: none;
+}
+
 body.dark {
   background-color: #222222;
+}
+
+body.dark .new h1 {
+  color: white !important;
+}
+
+body.dark .new-container p {
+  color: white !important;
+}
+
+body.dark .contact-left-number a {
+  color: white !important;
+}
+
+body.dark .contact-left-email a {
+  color: white !important;
 }
 
 body.dark .header-container-menu .icon__menu__close svg path {
@@ -11672,6 +11692,18 @@ body.dark .footer-container-top-phone a {
 
 body.dark .about p {
   color: white !important;
+}
+
+body.dark .map-container-dots-item .block-container h6 {
+  color: #1F2226 !important;
+}
+
+body.dark .icon__file {
+  display: none;
+}
+
+body.dark .icon__file_white {
+  display: block;
 }
 
 .n-list-right-ras button {
