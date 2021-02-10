@@ -11269,6 +11269,10 @@ ul li::before {
   display: none;
 }
 
+.icon__cam_w {
+  display: none;
+}
+
 body.dark {
   background-color: #222222;
 }
@@ -11704,6 +11708,46 @@ body.dark .icon__file {
 
 body.dark .icon__file_white {
   display: block;
+}
+
+body.dark .new-container h2 {
+  color: white !important;
+}
+
+body.dark .container-right-for-text {
+  background-color: #292929;
+}
+
+body.dark .icon__cam {
+  display: none;
+}
+
+body.dark .icon__cam_w {
+  display: block;
+}
+
+body.dark .dr-items-item {
+  background-color: #292929;
+}
+
+body.dark label div {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark label:hover div {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+body.dark .more-down {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark .more-news {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark .more {
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .n-list-right-ras button {
@@ -12849,6 +12893,12 @@ body.dark .icon__file_white {
   }
   .type table tr td {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1615px) {
+  .header-container-middle-theme {
+    margin-top: 16px;
   }
 }
 
