@@ -504,6 +504,33 @@ $(document).ready(function () {
 	 });
 
 
+
+	$('.btn-drop-oplus').on('click', function(event) {
+        var id21 = $(this).attr('data-plus')
+        if ($('#'+ id21).hasClass('active')) {
+            $('#'+ id21).removeClass('active')
+        }
+        else {
+            $('.oplus-item').removeClass('active')
+            $('#'+ id21).addClass('active')
+        }
+        console.log('dffsdfd')
+    })
+
+
+    $('.more-tr').click(function () {
+
+        var item = $('.tr1')
+
+        if(item.hasClass('hide')) {
+            item.removeClass('hide')
+            $('.more-tr').addClass('hide')
+        }
+
+    })
+
+
+
 	 $('.form').each(function() {
         var it = $(this);
          it.validate({
